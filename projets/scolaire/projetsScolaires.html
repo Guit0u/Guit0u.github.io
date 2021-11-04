@@ -35,12 +35,20 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li><a href="Projets.html"><span class="glyphicon glyphicon-folder-open"> Projets</a></li>
-	      <li><a href="CV.pdf"><span class="glyphicon glyphicon-info-sign"> CV</a></li>
-        <li><a href="Musiques.html"><span class="glyphicon glyphicon-headphones"> Musiques</a></li>
+        <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-folder-open"> Projets
+              <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="projetsScolaires.html">Scolaires</a></li>
+              <li><a href="../perso/projetsPerso.html">Personnels</a></li>
+              <li><a href="../pro/projetsPro.html">Professionels</a></li>
+            </ul>
+          </li>
+	      <li><a href="../../CV.pdf"><span class="glyphicon glyphicon-info-sign"> CV</a></li>
+        <li><a href="../../Musiques.html"><span class="glyphicon glyphicon-headphones"> Musiques</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="Contact.html">Contact  <span class="glyphicon glyphicon-envelope"></a></li>
+        <li><a href="../../Contact.html">Contact  <span class="glyphicon glyphicon-envelope"></a></li>
       </ul>
     </div>
   </div>
@@ -57,8 +65,10 @@
   <h3>Projets</h3><br>
   <div class="row">
     <div class="col-sm-3">
+      <a href="deputes.html">
       <p><strong>Qui sont nos députés ?</strong></p>
       <img src="../../images/deputes/screen1.jpg" class="img-responsive" style="width:100%" alt="Image">
+      </a>
     </div>
     <div class="col-sm-3"> 
       <p>Some text..</p>
